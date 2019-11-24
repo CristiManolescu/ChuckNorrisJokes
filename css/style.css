@@ -1,0 +1,88 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu-container {
+    width: 200px;
+    height: 500px;
+    border: solid;
+    
+}
+
+.menu-content {
+    width: 150px;
+    height: 300px;
+    padding: 25px;
+    text-align: center;
+}
+
+.content {        
+    width: 750px;
+    height: 500px;
+    border: solid;
+    margin-left: 10px;
+}
+
+.chuck-content{
+    margin-top: 50px; 
+    display: flex;
+}  
+
+.categories{
+    margin-left: 50px;
+}
+
+.searchyBy-categories{
+    margin-left: 200px;
+}    
+
+#showJoke{
+    width: 630;
+    height: 35;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button{
+    width: 120px;
+    height: 22;
+    outline: none;
+    background-color: #27ae60;
+    border: none;
+    border-radius:5px;
+    margin-bottom: 2px;
+}
+
+button:hover{
+    background-color: #2ecc71;
+  }
+
+@media only screen and (max-device-width: 750px) {
+    .page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    .menu-container {
+        width: 750px;
+        height: 50px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .menu-content {
+        width: 750px;
+        height: 50px;
+    }
+
+}

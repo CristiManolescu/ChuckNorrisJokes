@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/chuck.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+<div class="page">
+    <div class="menu-container">
+        <div class="menu-content">
+                <button onclick="">Chuck Norris</button>
+                <!-- To Do if I have enough time -->
+                <button onclick="clearPage();">Another API</button>
+                <button onclick="clearPage();">Another API</button>
+                <button onclick="clearPage();">Another API</button>
+                
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="chuck-content">          
+            <div class="categories">
+                <label>Joke Categories</label><br>
+                <button onclick="showCategories();">Show categories</button>
+                <div id="categories"></div>
+            </div>
+
+            <div class="searchyBy-categories">
+                <label>Search by category</label><br>
+                <input type="text" id="jokeCat" readonly><br>
+                <button onclick="getJokeCat(); showJoke();">Search</button><button onclick="showRandomJoke()"style="margin-left: 10px;">Random Joke</button><br>
+                <span id="showJoke"></span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<body>
+</html>
